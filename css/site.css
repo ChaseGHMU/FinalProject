@@ -1,0 +1,24 @@
+body {
+  background-color: #ddd;
+  background-image: url(../images/sky-large.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  padding-top: 88px;
+}
+
+html {
+  min-height: 100%;
+}
+
+/* fixes alignment of btn-sm buttons in tables */
+.table>tbody>tr>td {
+  vertical-align: middle !important;
+}
+
+/* for add employee, add flight, etc. buttons */
+.panel-heading>a.btn.pull-right {
+  margin-right: -7px;
+  margin-top: -2px;
+}
